@@ -1,0 +1,86 @@
+header{
+    background-color: #4a4a4a;
+    background-image: linear-gradient(30deg,#4a4a4a 50%, #000000aa);
+    padding-top: 1em;
+    position: relative;
+}
+
+#menu ul{
+    display: flex;
+    color: white;
+    gap: 1em;
+    padding: 0 10px 1em 10px;
+}
+#menu li{
+    margin: auto;
+    border: solid 3px black;
+    border-radius: 8px;
+    background-color: #6500b3;
+    transition: ease 1s;
+    box-shadow: 0 1px 4px #00000044;
+}
+#menu li:hover{
+    transition:ease 0.9s;
+    background-color: #8000e8;
+    font-size: xx-large;
+}
+
+
+
+@media only screen and (width >= 721px){
+    #menu li{
+        text-align: center;
+        padding: 10px;
+    }
+    #menu a{
+        width: 25%;
+    }
+}
+
+
+@media only screen and (width <= 720px){
+    #menu ul{
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    #menu li {
+        text-align: center;
+        justify-content: center;
+        margin: 0;
+        padding: 5px;
+    }
+    #menu a{
+        width: 40%;
+    }
+}
+
+
+@media only screen and (width <= 480px){
+    #menu ul{
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+    }
+    #menu li {
+        padding: 5px;
+    }
+    #menu a{
+        width: 80%;
+    }
+}
+
+
+@media only screen and (orientation: landscape){
+    #menu ul{
+        align-items: center;
+        justify-content: center;
+    }
+    #menu li{
+        text-align: center;
+        padding: 8px 5px;
+    }
+    #menu a{
+        width: 23%;
+    }
+}

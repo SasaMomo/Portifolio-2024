@@ -1,0 +1,11 @@
+h1 {
+    margin: 10px 20%;
+    text-align: center;
+    background: #8d3cab;
+	text-align: center;
+	border-style: dotted;
+	border-color: #121212;
+	border-radius: 16px;
+    padding: 1px 1px;
+    font-size: 50px;
+}

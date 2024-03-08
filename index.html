@@ -19,13 +19,13 @@
     <header>
       <div id="menu">
         <div id="blocking">
-          <a href="#" class="name"><h1>Lucas Henrique Front-End Dev.</h1></a>
+          <a href="#" class="name"><h1>Lucas Henrique.</h1></a>
         </div>
         <nav>
           <ul type="none">
-            <a href="#home"><li>Home</li></a>
-            <a href="#about"><li>Sobre</li></a>
-            <a href="#technologies"><li>Tecnologias</li></a>
+            <a href="#main"><li>Sobre</li></a>
+            <a href="#tecsl"><li>Tecnologias</li></a>
+            <a href="#projects"><li>Projetos</li></a>
             <a href="#contact"><li>Contato</li></a>
           </ul>
         </nav>
@@ -33,30 +33,66 @@
     </header>
     <main id="main">
     <div id="about">
-      <p> Olá, eu estou fazendo meus primeiros projetos em react mas ja faço páginas com HTML e CSS há 2 anos.</p>
+      <p> Olá, eu estou fazendo meus primeiros projetos em react mas ja faço páginas com HTML e CSS há 2 anos.</p>
       <h2>Um pouco sobre mim <box-icon name='user-pin' type='solid' animation='flashing' color='#ffffff' ></box-icon></h2>
-      <p class="desc1">  Tenho 22 anos, meu teste de personalidade é ENFJ-A, gosto de trabalhar em equipe, meu objetivo é participar
+      <p class="desc1" id="tecsl">  Tenho 22 anos, meu teste de personalidade é ENFJ-A, gosto de trabalhar em equipe, meu objetivo é participar
         de um ambiente de trabalho agradável, porém desafiador, onde eu possa me desenvolver e acompanhar meus colegas.</p>
-      <p class="desc1"> Eu entendo de Git (timelines, branchs e documentação), BootStrap, CSS responsivo,, TypeScript, JavaScript(funções reutilizaveis, triggers e Json) </p>
+      <p class="desc1"> Eu entendo de Git (timelines, branchs e documentação), BootStrap, CSS responsivo, TypeScript, JavaScript(funções reutilizaveis, triggers e Json) e SQL (queries, tabelas com join e performance).</p>
       <h2>Tecnologias</h2>
     </div>
     </main>
     <div id="tecs">
       <ul type="none">
-        <li>React</li>
-        <li>CSS</li>
-        <li><img src="media/JS.png">JavaScript</li>
-        <li>TypeScript</li>
-        <li>BootStrap</li>
-        <li>Git</li>
-        <li>Git Hub</li>
-        <li>SQL</li>
+        <div class="hover-text"> <img src="media/CSS.png">
+          <div class="tooltip-text top">CSS</div></div>
+        <div class="hover-text"> <img src="media/JS.png">
+          <div class="tooltip-text top">JavaScript</div></div>
+        <div class="hover-text"> <img src="media/TS.png">
+          <div class="tooltip-text top">TypeScript</div></div>
+        <div class="hover-text"> <img src="media/React.png">
+          <div class="tooltip-text top">React</div></div>
+        <div class="hover-text"> <img src="media/Git.png">
+          <div class="tooltip-text top">Git</div></div>
+        <div class="hover-text"> <img src="media/GitHub.png">
+          <div class="tooltip-text top">GitHub</div></div>
+        <div class="hover-text"> <img src="media/BS.png">
+          <div class="tooltip-text top">BootStrap</div></div>
+        <div class="hover-text"> <img src="media/SQL.png">
+          <div class="tooltip-text top">SQL</div></div>
       </ul>
     </div>
+    <h2>Projetos</h2>
     <div id="projects">
       <div class="card">
-        <div><p>Calculadora</p></div>
-        <div><iframe src="projects/calculator/Calc.html"></iframe></div>
+        <div><a href="projects/calculator/Calc.html" target="_blank"><p>Calculator</p></a></div>
+        <div class="mdiv"><a href="projects/calculator/Calc.html" target="_blank"><p>Calculadora com 19 botões, display e uma legenda ao lado para explicar os símbolos</p></a></div>
+        <div>
+          <p >CSS Responsivo</p>
+          <p>HTML</p>
+          <p>JavaScript</p>
+        </div>
+      </div>
+      <div class="card">
+        <div><a href="projects/calculator/Calc.html" target="_blank"><p>Calculator</p></a></div>
+        <div class="mdiv"><a href="projects/calculator/Calc.html" target="_blank"><p>Calculadora com 19 botões, display e uma legenda ao lado para explicar os símbolos</p></a></div>
+        <div>
+          <p >CSS Responsivo</p>
+          <p>HTML</p>
+          <p>JavaScript</p>
+        </div>
+      </div>
+      <div class="card">
+        <div><a href="projects/calculator/Calc.html" target="_blank"><p>Calculator</p></a></div>
+        <div class="mdiv"><a href="projects/calculator/Calc.html" target="_blank"><p>Calculadora com 19 botões, display e uma legenda ao lado para explicar os símbolos</p></a></div>
+        <div>
+          <p >CSS Responsivo</p>
+          <p>HTML</p>
+          <p>JavaScript</p>
+        </div>
+      </div>
+      <div class="card">
+        <div><a href="projects/calculator/Calc.html" target="_blank"><p>Calculator</p></a></div>
+        <div class="mdiv"><a href="projects/calculator/Calc.html" target="_blank"><p>Calculadora com 19 botões, display e uma legenda ao lado para explicar os símbolos</p></a></div>
         <div>
           <p >CSS Responsivo</p>
           <p>HTML</p>
@@ -64,7 +100,9 @@
         </div>
       </div>
     </div>
-
+    <div id="contact">
+      <h2>Contato</h2>
+    </div>
 
 
 
@@ -75,6 +113,9 @@
     <div class="hover-text">Right
       <span class="tooltip-text right">Tooltip Text</span>
     </div>
+    <footer>
+      <h3>Todos os direitos autorais reservados ◙→</h3>
+    </footer>
 
   </body>
 </html>

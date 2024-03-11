@@ -4,6 +4,9 @@ footer{
     height: 100px;
 }
 footer h3{
-    text-align: left;
+    text-align: center;
     margin: 10px 0px 0px 40px;
+}
+footer p{
+    margin: 10px 40px;
 }
